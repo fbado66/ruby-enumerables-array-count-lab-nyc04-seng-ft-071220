@@ -1,3 +1,4 @@
+ # Return the total number of strings in the provided array using the count enumerable
 def count_strings(array)
   total = 0
   index = 0 
@@ -8,8 +9,6 @@ def count_strings(array)
     index += 1
   end 
   total 
-  
-  # Return the total number of strings in the provided array using the count enumerable
 end
 
 def count_empty_strings(array)
